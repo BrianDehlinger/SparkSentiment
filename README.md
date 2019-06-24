@@ -8,13 +8,12 @@ Ideally, this will showcase my skills in software engineering, data visualizatio
 
 Technologies for consideration:
 
-Spark Streaming
-Apache Kafka
-SparkML
-Postgresql
-Dash - for dashboard visualization creation
-
-AWS may be utilized to access broader resources. 
+-Spark Streaming
+-Apache Kafka
+-MLLib
+-Postgresql
+-Dash - for dashboard visualization creation
+-AWS may be utilized to access broader resources.
 
 
 
