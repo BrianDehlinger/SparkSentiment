@@ -41,6 +41,8 @@ Kibana vs Plotly/Dash
 Visualize Data on National Parks
 ```
 
+## Acknowledgments
 
+* Hat tip to https://realpython.com/twitter-sentiment-python-docker-elasticsearch-kibana/
 
 
