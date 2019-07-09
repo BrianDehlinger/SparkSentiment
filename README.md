@@ -25,15 +25,14 @@ Also considering:
 -Dash - for dashboard visualization creation
 -AWS may be utilized to access broader resources.
 
-
-First step is a rapid prototype of a tutorial with no spark. ElasticSearch and Kibana will be used for visualization. 
-
-The rapid prototype was a success and was done using a tutorial. The program at this moment takes a hardcoded input to search as a term on Twitter. The results are then fed to elasticsearch on a docker container. The data is then fed to Kibana for visualization in real time. The program is fully functional.
+The rapid prototype was a success and was done using a tutorial. The program at this moment takes a hardcoded input to search as a term on Twitter. The results are then fed to elasticsearch on a docker container. The data is then fed to Kibana for visualization in real time. The program is fully functional. 
 
 Now the goals are:
 
 1) Adding more interesting natural language processing capabilities with NLTK and other natural language processign toolkits.
 2) Comparing Kibana and Plotly/Dash 
+3) Visualize data on all of the national parks in the United States in real time on a Dashboard. This is challenging because there are a 
+
 
 
 
