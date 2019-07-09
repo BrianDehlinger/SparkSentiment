@@ -1,6 +1,6 @@
 # SparkSentiment
 
-Apache Spark and Sentiment Anaylsis of the National Parks in Real Time on Twitter. The main focus of this project will be to gain hands on experience designing and presenting an end-to-end solution to a big data problem. Ideally, this will showcase my skills in software engineering, data visualization, and design in general.
+Apache Spark and Sentiment Anaylsis of the 61 United States National Parks in Real Time on Twitter. The main focus of this project will be to gain hands on experience designing and presenting an end-to-end solution to a big data problem. Ideally, this will showcase my skills in software engineering, data visualization, and design in general.
 
 # Technologies for consideration:
 
@@ -36,9 +36,9 @@ The rapid prototype was a success and was done using a tutorial. The program at 
 # Goals
 
 ```
-Adding more interesting natural language processing capabilities with NLTK and other natural language processign toolkits.
-Comparing Kibana and Plotly/Dash 
-Visualize data on all of the national parks in the United States in real time on a Dashboard. This is challenging because there are a 
+More Natural Language processing
+Kibana vs Plotly/Dash
+Visualize Data on National Parks
 ```
 
 
