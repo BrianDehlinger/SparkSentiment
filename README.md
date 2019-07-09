@@ -16,4 +16,6 @@ Technologies for consideration:
 -AWS may be utilized to access broader resources.
 
 
+First step is a rapid prototype of a tutorial with no spark. ElasticSearch and Kibana will be used for visualization. 
+
 
