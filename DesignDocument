@@ -19,5 +19,7 @@ localhost:9200 brings you to an instance of Elasticsearch. Awesome!
 Make a config.py file with the two consumer keys and the access token and access secret from your application.
 This is necessary for the twitter API to work.
 
+Geolocation data can be used as well.
+
 
 
