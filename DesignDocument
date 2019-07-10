@@ -1,0 +1,23 @@
+
+
+Rapid Prototype is first step: 
+
+Documentation for Rapid Prototype. On Linux Ubuntu Bioinic(18.04.1 LTS)
+
+Run these commands in linux. Omit sudo if you are root
+
+sudo snap install docker 
+sudo docker pull nshou/elasticsearch-kibana
+sudo docker run -d -p 9200:9200 -p 5601:5601 nshou/elasticsearch-kibana
+
+These commands will result in docker being installed and a docker image running on your machine at ports 9200 and 5601 and:
+
+localhost:5601 bringing you to an instance of kibana
+localhost:9200 brings you to an instance of Elasticsearch. Awesome!
+
+
+Make a config.py file with the two consumer keys and the access token and access secret from your application.
+This is necessary for the twitter API to work.
+
+
+
