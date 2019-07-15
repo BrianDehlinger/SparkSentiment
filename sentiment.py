@@ -18,7 +18,7 @@ class TweetStreamListener(StreamListener):
         
         #decodes the json
         tweet_dictionary = json.loads(data)
-        
+        print(tweet_dictionary['user']['location'])
         #Retrieves tweet data into object tweet by using TextBlob
         tweet = TextBlob(tweet_dictionary["text"])
 
@@ -32,9 +32,9 @@ class TweetStreamListener(StreamListener):
             sentiment = "positive"
 
         #output sentiment
-        print(sentiment)
+        print(tweet_dictionary["text"])
 
-        elasticsearch.index(index="yosemite",
+        elasticsearch.index(index="nationalparks",
                  doc_type="test-type",
                  body={"author": tweet_dictionary["user"]["screen_name"],
                        "date": tweet_dictionary["created_at"],
@@ -58,5 +58,8 @@ if __name__ == '__main__':
 
     stream = Stream(auth, listener)
 
+    with open("nationalparks.txt") as file:
+        nationalparks = file.readlines()
+        nationalparks = [item.strip() for item in nationalparks]
 
-    stream.filter(track=['national park'])
+    stream.filter(track=nationalparks)

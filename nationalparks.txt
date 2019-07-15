@@ -19,7 +19,7 @@ Dry Tortugas
 Everglades
 Gates of the Arctic
 Gateway Arch
-Glacier
+Glacier National Park
 Glacier Bay
 Grand Canyon
 Grand Teton
@@ -42,7 +42,7 @@ Mammoth Cave
 Mesa Verde
 Mount Rainier
 North Cascades
-Olympic
+Olympic National Park
 Petrified Forest
 Pinnacles
 Redwood
@@ -57,4 +57,4 @@ Wind Cave
 Wrangell–St. Elias
 Yellowstone
 Yosemite
-Zion
+Zion National Park
