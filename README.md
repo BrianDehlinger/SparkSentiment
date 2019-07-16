@@ -31,6 +31,9 @@ AWS
 
 # Status
 
+Working on a prototype using Spark.
+Working on data cleaning pipeline robustness. (I likely will modify a third party module to be faster and more accurate).
+
 The rapid prototype was a success and was done using a tutorial. The program at this moment takes a hardcoded input to search as a term on Twitter. The results are then fed to elasticsearch on a docker container. The data is then fed to Kibana for visualization in real time. The program is fully functional. 
 
 Currently, I am working on deciding on a method to allow for concurrency. I want to first test out threading and see if it is possible to distribute thread instances across Spark. I found this Medium article: https://medium.com/@rbahaguejr/threaded-tasks-in-pyspark-jobs-d5279844dac0 Data delivery needs to be assured with hashing in a production environment. Encryption probably doesn't need to occur as this data is publicly accessible. 
